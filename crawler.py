@@ -16,7 +16,21 @@ headers = {
 regions = {
     "서울": "서울특별시",
     "경기": "경기도",
-    "인천": "인천광역시"
+    "인천": "인천광역시",
+    "강원": "강원특별자치도",
+    "충남": "충청남도",
+    "충북": "충청북도",
+    "대전": "대전광역시",
+    "세종": "세종특별자치시",
+    "부산": "부산광역시",
+    "울산": "울산광역시",
+    "대구": "대구광역시",
+    "경북": "경상북도",
+    "경남": "경상남도",
+    "전남": "전라남도",
+    "광주": "광주광역시",
+    "전북": "전북특별자치도",
+    "제주": "제주특별자치도"
 }
 
 all_data = []
@@ -88,8 +102,7 @@ for region_alias, region_full_name in regions.items():
 
                         # 1. 친환경차 관련
                         'is_ev': 1 if item.get('spcialSrvH003', '').strip() == 'Y' else 0,  # 전기차 수리
-                        'is_ev_tech': 1 if item.get('spcialSrvC002', '').strip() == 'Y' else 0,
-                        # 전동차 기술력 우수 (is_excellent)
+                        'is_ev_tech': 1 if item.get('spcialSrvC002', '').strip() == 'Y' else 0, # 전동차 기술력 우수
                         'is_hydrogen': 1 if item.get('spcialSrvH001', '').strip() == 'Y' else 0,  # 수소 전기차 수리
                         # 2. 차체/도장 및 특수 수리
                         'is_frame': 1 if item.get('spcialSrvC001', '').strip() == 'Y' else 0,  # 차체/도장 수리 인증
@@ -132,3 +145,45 @@ print(df.head())
 # CSV 저장
 df.to_csv("bluehands_final_all.csv", index=False, encoding="utf-8-sig")
 print("\n 'bluehands_final_all.csv' 파일로 저장했습니다.")
+
+
+"""
+# 1. 매핑 정의 (코드 상단이나 별도 설정 파일에 둠)
+# 형식: 'API_KEY': 'DB_변수명'
+SERVICE_MAP = {
+    # 친환경
+    'spcialSrvH003': 'is_ev',             # 전기차
+    'spcialSrvC002': 'is_ev_tech',        # 전동차 기술 우수
+    'spcialSrvH001': 'is_hydrogen',       # 수소차
+    
+    # 차체/도장
+    'spcialSrvC001': 'is_frame',          # 차체/도장
+    'spcialSrvC006': 'is_al_frame',       # 알루미늄
+    'spcialSrvC009': 'is_n_line',         # N-Line
+    
+    # 상용차
+    'spcialSrvC010': 'is_commercial_mid', # 중형 상용
+    'spcialSrvC011': 'is_commercial_big', # 대형 상용
+    'spcialSrvC012': 'is_commercial_ev',  # 상용 전기
+    
+    # 기타
+    'spcialSrvC003': 'is_cs_excellent',   # CS 우수
+}
+
+# 2. 데이터 처리 (info 생성 부분)
+info = {
+    'region': region_alias,
+    'name': item.get('asnNm'),
+    'type': item.get('apimCeqPlntNm'),
+    'address': item.get('pbzAdrSbc'),
+    'phone': item.get('repnTn', '').strip(),
+    'latitude': lat,
+    'longitude': lon,
+}
+
+# ⭐ 핵심: 반복문으로 자동 처리 (지저분한 if-else 제거)
+for api_key, db_field in SERVICE_MAP.items():
+    # 값이 'Y'이면 1, 아니면 0
+    raw_val = item.get(api_key, '').strip()
+    info[db_field] = 1 if raw_val == 'Y' else 0
+    """
