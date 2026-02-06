@@ -20,12 +20,13 @@ load_dotenv()
 # -----------------------------------------------------------------------------
 # 1) Page / Theme
 # -----------------------------------------------------------------------------
-st.set_page_config(
-    page_title="현대자동차 블루핸즈 찾기",
-    page_icon="🚘",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+if os.getenv("STREAMLIT_PARENT") != "1":
+    st.set_page_config(
+        page_title="현대자동차 블루핸즈 찾기",
+        page_icon="🚘",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
 
 st.markdown("""
 <style>

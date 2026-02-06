@@ -668,3 +668,14 @@ else:
     m = folium.Map(location=[37.4979, 127.0276], zoom_start=13)
     st_folium(m, height=450, use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
+
+# FAQ HTML/CSS (resource)
+st.markdown("---")
+faq_css_path = os.path.join(os.path.dirname(__file__), "resource", "faq.css")
+if os.path.exists(faq_css_path):
+    with open(faq_css_path, "r", encoding="utf-8") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+faq_html_path = os.path.join(os.path.dirname(__file__), "resource", "faq.html")
+if os.path.exists(faq_html_path):
+    with open(faq_html_path, "r", encoding="utf-8") as f:
+        st.markdown(f.read(), unsafe_allow_html=True)

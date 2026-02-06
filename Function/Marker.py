@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import mysql.connector
 import folium
@@ -24,12 +25,13 @@ def haversine(lon1, lat1, lon2, lat2):
 # -----------------------------------------------------------------------------
 # 1. 페이지 설정
 # -----------------------------------------------------------------------------
-st.set_page_config(
+if os.getenv("STREAMLIT_PARENT") != "1":
+    st.set_page_config(
     page_title="블루핸즈 근처 조회",
     page_icon="🚘",
     layout="wide",
     initial_sidebar_state="expanded",
-)
+    )
 
 
 # -----------------------------------------------------------------------------
