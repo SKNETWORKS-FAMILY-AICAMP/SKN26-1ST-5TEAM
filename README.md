@@ -34,7 +34,7 @@
 pip install streamlit mysql-connector-python pandas folium streamlit-folium streamlit-js-eval
 ```
 
-2. 데이터베이스 설정 (MySQL)
+### 2. 데이터베이스 설정 (MySQL)
 프로젝트 실행을 위해 MySQL에 데이터베이스와 테이블이 생성되어 있어야 합니다.
 ```sql
 CREATE DATABASE IF NOT EXISTS bluehands_db;
@@ -63,11 +63,11 @@ CREATE TABLE bluehands (
     FOREIGN KEY (region_id) REFERENCES regions(id)
 );
 ```
-3. DB 연결 정보 수정
+### 3. DB 연결 정보 수정
 .env파일을 생성한후 MySQL 환경에 맞게 수정해주세요.
 
 ### .env (또는 해당 파일의 생성 및 수정)
-```
+```env
     MYSQL_HOST=localhost
     MYSQL_PORT=3306
     MYSQL_USER=root                  # 본인의 MySQL 유저명
@@ -75,7 +75,10 @@ CREATE TABLE bluehands (
     MYSQL_DB=bluehands_db
 ```
 
-4. 애플리케이션 실행
+### 4. 애플리케이션 실행
+```
+DB/crawler.py -> DB/schema.sql -> DB/import_csv_to_mysql.py
+```
 ```bash
 streamlit run final.py # 최종 실행 파일은 final.py 입니다.
  ```
