@@ -68,9 +68,10 @@ CREATE TABLE bluehands (
 
 ### .env (또는 해당 파일의 생성 및 수정)
 ```
-    MYSQL_HOST=localhost,
-    MYSQL_USER=root,                 # 본인의 MySQL 유저명
-    MYSQL_PASSWORD="your_password",  # 본인의 MySQL 비밀번호
+    MYSQL_HOST=localhost
+    MYSQL_PORT=3306
+    MYSQL_USER=root                  # 본인의 MySQL 유저명
+    MYSQL_PASSWORD="your_password"   # 본인의 MySQL 비밀번호
     MYSQL_DB=bluehands_db
 ```
 
