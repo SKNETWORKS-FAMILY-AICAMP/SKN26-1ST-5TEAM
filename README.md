@@ -64,16 +64,15 @@ CREATE TABLE bluehands (
 );
 ```
 3. DB 연결 정보 수정
-소스 코드 내의 DB_CONFIG 딕셔너리를 본인의 MySQL 환경에 맞게 수정해주세요.
+.env파일을 생성한후 MySQL 환경에 맞게 수정해주세요.
 
-### main.py (또는 해당 파일의 내용 수정)
-DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",           # 본인의 MySQL 유저명
-    "password": "your_password", # 본인의 MySQL 비밀번호
-    "database": "bluehands_db",
-    "charset": "utf8mb4",
-}
+### .env (또는 해당 파일의 생성 및 수정)
+```
+    MYSQL_HOST=localhost,
+    MYSQL_USER=root,                 # 본인의 MySQL 유저명
+    MYSQL_PASSWORD="your_password",  # 본인의 MySQL 비밀번호
+    MYSQL_DB=bluehands_db
+```
 
 4. 애플리케이션 실행
 ```bash
