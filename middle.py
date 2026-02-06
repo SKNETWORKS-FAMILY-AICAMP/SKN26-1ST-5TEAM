@@ -152,6 +152,41 @@ st.markdown(
         justify-content: center !important;
         align-items: center !important;
     }
+
+    /* 12. 지도 범례(오른쪽 위) - 라이트/다크 자동 대응 + 핀 색상 고정 */
+    .map-legend {
+        display:flex;
+        justify-content:flex-end;
+        gap:18px;
+        align-items:center;
+        padding-top:12px;
+        flex-wrap:nowrap;
+        white-space:nowrap;
+    }
+
+    /* Streamlit 테마 텍스트 색(라이트/다크)을 그대로 따라가게 */
+    .map-legend, .map-legend * {
+        color: var(--text-color, inherit) !important;
+    }
+
+    .map-legend .legend-item {
+        display:flex;
+        align-items:center;
+        gap:6px;
+        font-weight:700;
+    }
+
+    .map-legend .legend-pin {
+        width:16px;
+        height:16px;
+        display:block;
+        flex:0 0 auto;
+    }
+
+    /* 범례 핀 색 고정 */
+    .map-legend .pin-green { fill:#2E7D32; }
+    .map-legend .pin-blue  { fill:#1565C0; }
+    .map-legend .pin-red   { fill:#C62828; }
 </style>
 """,
     unsafe_allow_html=True,
@@ -168,30 +203,33 @@ FILTER_OPTIONS = {
 FLAG_COLS_SQL = ", ".join(FILTER_OPTIONS.keys())
 
 # (추가) 지도 밖(오른쪽 위) 범례 HTML
+# - inline style 제거(필요 없음): CSS에서 제어
+# - pin-* 클래스에 fill이 CSS로 적용됨
 LEGEND_HTML = """
-<div style="display:flex; justify-content:flex-end; gap:18px; align-items:center; padding-top:12px; flex-wrap:nowrap; white-space:nowrap;">
-  <div style="display:flex; align-items:center; gap:6px; font-weight:700; color:#111827;">
-    <svg width="16" height="16" viewBox="0 0 24 24" style="fill:#2E7D32">
+<div class="map-legend">
+  <div class="legend-item">
+    <svg class="legend-pin pin-green" width="16" height="16" viewBox="0 0 24 24">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
     </svg>
     <span>전문 블루핸즈</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:6px; font-weight:700; color:#111827;">
-    <svg width="16" height="16" viewBox="0 0 24 24" style="fill:#1565C0">
+  <div class="legend-item">
+    <svg class="legend-pin pin-blue" width="16" height="16" viewBox="0 0 24 24">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
     </svg>
     <span>종합 블루핸즈</span>
   </div>
 
-  <div style="display:flex; align-items:center; gap:6px; font-weight:700; color:#111827;">
-    <svg width="16" height="16" viewBox="0 0 24 24" style="fill:#C62828">
+  <div class="legend-item">
+    <svg class="legend-pin pin-red" width="16" height="16" viewBox="0 0 24 24">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
     </svg>
     <span>하이테크센터</span>
   </div>
 </div>
 """
+
 
 # 데이터베이스 연결 설정
 DB_CONFIG = {
@@ -284,7 +322,14 @@ def add_markers_to_map(m, rows, user_lat=None, user_lng=None):
 
         services_html = format_services_html(row)
 
-        pin_color = type_color_map.get(row.get("type_id"), "gray")
+        # (수정) DB에서 type_id가 Decimal/str로 올 수도 있어서 int로 정규화
+        raw_type = row.get("type_id")
+        try:
+            type_id = int(raw_type)
+        except Exception:
+            type_id = None
+
+        pin_color = type_color_map.get(type_id, "gray")
 
         html = f"""
         <div style="width:240px; font-family:'Pretendard', sans-serif;">
@@ -619,7 +664,7 @@ if should_search:
         render_paginated_table(data_list)
 
 else:
-    st.info("👈 왼쪽 사이드바에서 원하는 지역과 정비 옵션을 선택하거나, 지점명을 검색해보세요.")
+    st.info("👈 왼쪽 사이드바에서 원하는 지역과 정비 옵션을 선택하거나, 지점명/주소를 검색해보세요.")
     m = folium.Map(location=[37.4979, 127.0276], zoom_start=13)
     st_folium(m, height=450, use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
