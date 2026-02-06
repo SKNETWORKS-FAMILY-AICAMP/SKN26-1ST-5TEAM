@@ -128,11 +128,11 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">김이선</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">DB 의 구조를 확실히 파악하고 응용하는 방법을 아시기에 검색 기능 을 구현해주셨습니다. 자신이 해야할것도 뛰어 넘어 더 하는 모습을 보여줘서 인상이 깊었습니다.</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">검색 기능 구현을 하시며 DB의 구조를 확실히 파악 그리고 자신이 해야할것도 뛰어 넘어 더 하는 열정적인 모습을 보여주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">위희찬</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">구조 설계 파트를 맡아 크롤링.py와 스키마, DB 테이블 기초 구축을 책임졌습니다. 기반 틀이 빠르게 완성된 덕분에 후속 작업이 막히지 않고 진행됐습니다. 초반 설계를 제대로 잡아준 것이 전체 일정 안정화에 크게 기여했습니다. 그리고 코드 안정화에도 도움을 많이 주셨습니다.</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">구조 설계 파트를 맡아 크롤링.py와 스키마, DB 테이블 기초 구축을 책임졌습니다. 기반틀이 빠르게 완성된 덕분에 후속 작업이 막히지 않고 진행됐습니다. 초반 설계를 제대로 잡아준 것이 전체 일정 안정화에 크게 기여했습니다. 그리고 코드 안정화에도 도움을 많이 주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">이선호</td>
@@ -140,7 +140,7 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">프로젝트 기여도가 압도적으로 높았습니다. 전체 개발의 90% 이상을 실질적으로 밀어붙였고, Streamlit 활용 능력도 상당했습니다. 코드를 작성하자마자 바로 실행하면서 즉시 검증하는 습관이 인상적이었고, 그 과정 자체가 코드 리뷰 역할을 했습니다. 속도와 열정 모두 팀을 끌어올린 핵심 요인이었습니다.</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">프로젝트 기여도가 압도적으로 높았습니다. 전체 개발의 90% 이상을 실질적으로 밀어붙였고, Streamlit 활용 능력도 상당했습니다. 코드를 작성하자마자 바로 실행하면서 코드 리뷰를 함께 진행하시고 속도와 열정 모두 팀을 끌어올린 핵심 요인이었습니다.</td>
         </tr>
     </tbody>
 </table>
