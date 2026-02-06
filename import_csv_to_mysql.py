@@ -272,6 +272,7 @@ def main():
                     "is_ev": safe_int(row[COL_IS_EV], 0),
                     "is_ev_tech": safe_int(row[COL_IS_EV_TECH], 0),
                     "is_hydrogen": safe_int(row[COL_IS_HYDROGEN], 0),
+                    "is_hydrogen": safe_int(row[COL_IS_HYDROGEN], 0),
                     "is_frame": safe_int(row[COL_IS_FRAME], 0),
                     "is_al_frame": safe_int(row[COL_IS_AL_FRAME], 0),
                     "is_n_line": safe_int(row[COL_IS_N_LINE], 0),

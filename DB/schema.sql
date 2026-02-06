@@ -44,11 +44,7 @@ CREATE TABLE bluehands (
   latitude  DOUBLE NULL,
   longitude DOUBLE NULL,
 
-  -- 기본/레거시(스크린샷에 존재)
   is_ev        TINYINT(1) NOT NULL DEFAULT 0,
-  is_excellent TINYINT(1) NOT NULL DEFAULT 0,
-
-  -- 최신 CSV 플래그들
   is_ev_tech          TINYINT(1) NOT NULL DEFAULT 0,
   is_hydrogen         TINYINT(1) NOT NULL DEFAULT 0,
   is_frame            TINYINT(1) NOT NULL DEFAULT 0,
