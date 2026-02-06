@@ -58,7 +58,7 @@ CREATE TABLE bluehands (
     is_ev TINYINT(1) DEFAULT 0,        -- 전기차 전담
     is_hydrogen TINYINT(1) DEFAULT 0,  -- 수소차 전담
     is_frame TINYINT(1) DEFAULT 0,     -- 판금/차체
-    is_excellent TINYINT(1) DEFAULT 0, -- 우수 협력점
+    is_cs_excellent TINYINT(1) DEFAULT 0, -- 우수 협력점
     is_n_line TINYINT(1) DEFAULT 0,    -- N-Line 전담
     FOREIGN KEY (region_id) REFERENCES regions(id)
 );
