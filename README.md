@@ -115,8 +115,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
@@ -148,8 +148,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
@@ -181,8 +181,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
@@ -214,8 +214,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
@@ -247,8 +247,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
@@ -280,8 +280,8 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; margin-bottom: 30px;">
     <thead>
         <tr style="background-color: #f8f9fa;">
-            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">작성자</th>
+            <th style="width: 15%; border: 1px solid #ddd; padding: 10px;">대상자</th>
             <th style="border: 1px solid #ddd; padding: 10px;">회고 내용</th>
         </tr>
     </thead>
