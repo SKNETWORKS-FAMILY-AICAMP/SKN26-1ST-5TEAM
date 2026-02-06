@@ -136,7 +136,7 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">이선호</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">처음부터 완벽하게 따라오기보다는, 부족한 부분을 인지하고 학습으로 메우려는 태도가 분명했습니다. 열정적으로 공부하면서 팀 흐름에 맞추려 노력했고, 그 과정에서 성장 가능성이 뚜렷하게 보였습니다. 프로젝트 경험을 통해 속도가 더 붙을 타입입니다.</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">처음부터 완벽하게 따라오기보다는, 부족한 부분을 인지하고 학습으로 메우려는 태도로 열정적으로 공부하면서 팀 흐름에 맞추려 노력해주셨습니다. 자신이 부족하다고 생각하지 않으셨으면 좋을거같습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
