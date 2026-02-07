@@ -79,7 +79,7 @@ CREATE TABLE bluehands (
 ```
 DB/crawler.py -> DB/schema.sql -> DB/import_csv_to_mysql.py
 ```
-```bash
+```terminal
 streamlit run final.py # 최종 실행 파일은 final.py 입니다.
  ```
 
