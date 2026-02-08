@@ -227,23 +227,23 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         <tr>
             <td rowspan="5" style="text-align: center; font-weight: bold; border: 1px solid #ddd;">위희찬</td>
             <td style="text-align: center; border: 1px solid #ddd;">김용욱</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">전제적으로 안뒤쳐지고 프로젝트 흐름을 이해하시고 프로젝트 내용의 핵심을 ppt에 잘녹아들게 정리해주셔서 신경써야 할부분이 많이 줄고 덕분에 완성도가 올라갔습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">김이선</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">검색 기능과 누적 데이터 처리, 그리고 파이썬 워드클라우드 구현 등 프로젝트의 핵심 기능을 주도적으로 맡아주셨습니다. 매일 남아서 추가적으로 작업하시는 모습도 있었고 ppt를 예쁘게 할줄아는 사람이 조에 없었는데 폰트도 다운받아 적용하는 등의 모습도 있었습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전승권</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">깃허브 관리와 코딩 과정에 문제가 있을때 함께 해결하였습니다, 프로젝트 후반부에 전체적인 폴더 정리와 보안적인 부분을 통틀어 리팩토링을 해주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">이선호</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">프로젝트 진행 과정에서 포기하지 않고 끝까지 따라오려는 노력을 하며 성장하셨습니다, 제작 과정에서도 배움의 자세를 가지시면서 성장해 나가는 모습을 보여주셨고 이로부터 팀의 흐름을 따라오시려는 모습이 매우 인상에 남았습니다</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">저희 조의 주제를 정할떄 방향성을 제시해주셨고 노션정리와 README정리 등으로 후속작업이 편하게 만들어주셨습니다. 코딩 또한 대부분을 주작업이 시작되기 이전에 찾아서 해보시면서 막히는 부분이 없게 해주셨습니다. </td></td>
         </tr>
     </tbody>
 </table>
