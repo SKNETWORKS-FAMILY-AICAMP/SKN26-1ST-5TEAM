@@ -194,23 +194,23 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         <tr>
             <td rowspan="5" style="text-align: center; font-weight: bold; border: 1px solid #ddd;">김이선</td>
             <td style="text-align: center; border: 1px solid #ddd;">김용욱</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">개인 사정으로 하루 부재가 있었음에도 복귀 후 빠르게 프로젝트 흐름을 따라잡고, 발표 자료를 높은 완성도로 정리해 주셨습니다. 특히 결과물을 단순히 제작하는 데 그치지 않고, 발표용으로 전달 가능한 구조로 재정리한 점이 인상적이었습니다. 프로젝트 마무리 단계에서 PPT를 전담해 준비해 주신 덕분에 발표 준비 부담이 크게 줄었고, 팀 전체의 완성도를 끌어올리는 데 중요한 역할을 해주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전승권</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">개발 과정에서 발생한 다양한 오류와 문제를 해결하는 데 중요한 역할을 해주셨습니다. 기술적 이슈를 차분하게 정리하고 방향을 바로잡아 주신 덕분에 프로젝트가 흔들리지 않고 안정적으로 마무리될 수 있었습니다. 팀의 중심을 잡아주는 역할을 수행해 주셨다고 생각합니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">위희찬</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">초기 구조 설계와 크롤링 코드, DB 테이블 구축을 안정적으로 완성해 주셔서 프로젝트 기반을 단단히 잡아주셨습니다. 또한 팀원들이 각자 작성한 코드를 하나의 시스템으로 통합하는 과정에서 중심적인 역할을 해주셨습니다. 서로 다른 코드 흐름을 정리하고 연결해 준 덕분에 프로젝트가 하나의 완성된 결과물로 정리될 수 있었습니다. 개발 중에도 방향성을 차분하게 잡아주셔서 팀이 흔들리지 않도록 도와주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">이선호</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">자신의 현재 역량을 객관적으로 인식하고, 부족한 부분을 개인 학습으로 보완하려는 태도가 돋보였습니다. 프로젝트 진행 과정에서 포기하지 않고 끝까지 따라오려는 노력과 성장이 인상적이었으며, 이러한 태도는 팀 분위기에도 긍정적인 영향을 주었습니다. 완벽함보다 성장에 초점을 두고 끊임없이 배우려는 자세가 앞으로 더 큰 발전으로 이어질 것이라 생각합니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">프로젝트 전반을 주도적으로 이끌며 높은 기여도를 보여주셨습니다. 특히 Streamlit UI 전반을 설계하고 구현하며 사용자 흐름과 화면 완성도를 크게 끌어올렸습니다. 개발 과정에서 제가 해맬 때마다 방향을 제시해주시고 문제를 함께 해결해주셔서 큰 도움을 받았습니다. 실행력과 속도 면에서도 팀 분위기를 끌어올리는 핵심 역할을 해주셨습니다.</td>
         </tr>
     </tbody>
 </table>
