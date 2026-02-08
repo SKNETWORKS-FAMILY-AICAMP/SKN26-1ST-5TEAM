@@ -161,23 +161,23 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         <tr>
             <td rowspan="5" style="text-align: center; font-weight: bold; border: 1px solid #ddd;">김용욱</td>
             <td style="text-align: center; border: 1px solid #ddd;">전승권</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">개발과정이나 초기 설정 과정에서 서로 헷갈릴 수 있는 부분을 차분하게 세세하게 알려주면서 팀원이 이해를 하면서 진행해 나갈 수 있게 잘 도와주셨습니다. 그리고 제작 과정에서 나오는 기술적 이슈를 잘 정리해주셨고 프로젝트 내 진행방향을 어떻게 잡아가야할 지 잘 정해주셨습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">김이선</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">검색 기능과 누적 데이터 처리  등 프로젝트의 핵심 기능을 주도적으로 맡아주셨습니다. 프로젝트 기간 동안 직접 코드를 입력해보고 오류값을 잡아가면서 성장하시는 모습을 보여주셨고 그 외에도 추가하면 좋은 점에 대해 얘기해주면서 좋은 아이디어를 많이 제시해주면서 적극적인 모습을 보였습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">위희찬</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">초기 구조 설계와 크롤링 코드, DB 테이블 구축을 안정적으로 완성해 주셔서 프로젝트 기반을 단단히 잡아주셨습니다. 그 후에 조원들의 코드를 한 번 씩 봐주면서 잘못된 부분을 자세하게 잘 설명해주셔서 초기에 따라가기 힘들었던 부분도 점점 따라갈 수 있게 잘 도와주셨습니다. </td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">이선호</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">프로젝트 진행 과정에서 포기하지 않고 끝까지 따라오려는 노력과 성장이 인상적이었고, 제작 과정에서도 배움의 자세를 가지시면서 성장해 나가는 모습을 보여주셨고 이로부터 팀의 흐름을 따라오시려는 모습이 매우 인상에 남았습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">초반 데이터베이스 테이블 제작에서 초보들도 이해하기 편하게 좋은 예시를 보여주면서 진도를 맞춰나갈 수 있게 해주셨습니다. UI 제작에서도 많은 기여도를 보여주면서 완성도 높은 streamlit을 만들 수 있게 하면서 팀의 사기와 속도를 모두 복돋아주면서 팀의 화합을 더 이끌어주셨습니다.  </td>
         </tr>
     </tbody>
 </table>
