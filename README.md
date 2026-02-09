@@ -260,23 +260,23 @@ streamlit run final.py # 최종 실행 파일은 final.py 입니다.
         <tr>
             <td rowspan="5" style="text-align: center; font-weight: bold; border: 1px solid #ddd;">이선호</td>
             <td style="text-align: center; border: 1px solid #ddd;">김용욱</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">비전공자로 어려움이 많으셨지만 PT자료 정리 해주면서 전체적인 흐름을 잡으려 노력하시는 모습이 좋았습니다. </td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">김이선</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">어수룩하게 보이는 모습 뒤에 치밀하게 준비하는 모습이 인상적이었고 DB구조화하여 파이썬과 연동하는 작업을 보면서 프로젝트에서 배워야 할 점을 알게되었습니다. </td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">위희찬</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">처음 업무 분할때 기능위주로 하셔서 마음속으로 못따라 갈거 같아 불만이 생기려고 했는데 업무 범위를 쪼개서 역량에 맞게 낮추고 진행상황을 파악하는 모습에서 리더로서 자질이 느껴졌습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전승권</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">전공자로 마지막까지 프로젝트의 완성을 책임지고 조율하는 모습에서 전체 프로젝트의 내용을 배울수 있었습니다.</td>
         </tr>
         <tr>
             <td style="text-align: center; border: 1px solid #ddd;">전종혁</td>
-            <td style="border: 1px solid #ddd; padding: 10px;">작성해주실곳</td>
+            <td style="border: 1px solid #ddd; padding: 10px;">처음부터 프로젝트의 방향성을 고민하고 일을 진행시키는 추진력을 보면서 기획자로 가능성을 보았습니다.</td>
         </tr>
     </tbody>
 </table>
